@@ -154,7 +154,7 @@ function draw() {
 
 function pinkCyclists(){
         player1 =createSprite(1100,Math.round(random(50, 500)));
-        player1.scale =0.10;
+        player1.scale =0.15;
         player1.velocityX = -(6 + 3*distance/150);
         player1.addAnimation("opponentPlayer1",oppPink1Img);
         player1.setLifetime=170;
